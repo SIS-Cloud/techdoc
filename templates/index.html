@@ -1,0 +1,30 @@
+{%extends 'layout.html'%}
+
+{%block content%}
+
+<div class="container">
+<form action="" method="post">
+  {{form.hidden_tag()}}
+  {{form.tenantid.label}}
+  {{form.tenantid()}}
+  <br>
+  <br>
+  {{form.select_template.label}}
+  {{form.select_template()}}
+  <br>
+  <br>
+  {{form.submit()}}
+</form>
+<hr>
+
+
+{%if session['tenantid'] == "" %}
+กรุณากรอกข้อมูลให้ครบถ้วน
+
+{%elif error%}
+{{error}}
+
+{%endif%}
+</div>
+
+{%endblock%}

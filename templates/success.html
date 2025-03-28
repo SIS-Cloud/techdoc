@@ -1,0 +1,12 @@
+{%extends 'layout.html'%}
+
+{%block content%}
+
+
+<h1><b>Success!!</b></h1>
+<b>Techdoc Tenant {{session['tenantid']}} is created, please see file in folder "/Downloads/"</b>
+<br>
+<br>
+<a href="{{url_for('index')}}">กลับไปหน้าหลัก</a>
+
+{%endblock%}

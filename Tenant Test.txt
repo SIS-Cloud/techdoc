@@ -1,0 +1,26 @@
+# pip install -r .\requirement.txt
+
+1101-0002 int
+1101-2083 prod
+1102-1078 veeam agent int
+1102-2283 veeam agent prod
+1102-3393 veeam standard prod
+1003-0011 int
+1103-5555 poc
+1103-3005 prod
+1103-1054 DR vcc01 prod
+1103-0820 DR vcc04 prod 
+1105-3420 poc
+1105-0950 prod
+1105-0963-0002 prod
+1107-3450 poc
+1107-1126 prod
+1401-3505 poc
+1401-2222 prod
+1115-3514 poc
+1115-3394 prod
+
+
+
+
+
